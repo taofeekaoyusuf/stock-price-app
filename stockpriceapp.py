@@ -6,10 +6,10 @@ from urllib.error import URLError
 
 st.write(
     """
-# Stock Price for Exxon Mobil
+        # Stock Price for Exxon Mobil
 
-These are the stock Price Metrics for Exxon Mobil.
-"""
+        These are the stock Price Metrics for Exxon Mobil.
+    """
 )
 
 companyData = []
@@ -54,9 +54,6 @@ st.line_chart(company_data[2].Low)
 
 st.write('### Exxon Mobile Dividends')
 st.line_chart(company_data[2].Dividends)
-
-st.write('### Exxon Mobile Closing Stock')
-st.line_chart(company_data[2])
 
 # try:
 #     company_data = get_company_data()
